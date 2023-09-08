@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="display">
+                <div id="valor-ant"></div>
+                <div id="valor-act"></div>
+            </div>
+            <button onclick="display.clear()" class="btn-2 col-2">C</button>
+            <button onclick="display.borrar()" class="btn-2">&larr;</button>
+            <button class="btn-2 operator" value="dividir">%</button>
+            <button class="numero">7</button>
+            <button class="numero">8</button>
+            <button class="numero">9</button>
+            <button class="btn-2 operator" value="multiplicar">X</button>
+            <button class="numero">4</button>
+            <button class="numero">5</button>
+            <button class="numero">6</button>
+            <button class="btn-2 operator" value="restar">-</button>
+            <button class="numero">1</button>
+            <button class="numero">2</button>
+            <button class="numero">3</button>
+            <button class="btn-2 operator" value="sumar">+</button>
+            <button class="numero">0</button>
+            <button class="numero">.</button>
+            <button class="btn-2 col-2 operator" value="igual">=</button>
+        </div>
+    </div>
+    <script src="index.js" type="text/javascript" defer></script>
+    <script src="Calculator.js" type="text/javascript" ></script>
+    <script src="Display.js" type="text/javascript" ></script>
+</body>
+</html>
