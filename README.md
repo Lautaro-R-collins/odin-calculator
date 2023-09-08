@@ -1,4 +1,5 @@
 #Basic calculator with JS for Odin Project
+
 Technologies used
 - HTML
 - CSS 
